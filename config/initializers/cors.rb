@@ -1,6 +1,6 @@
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins 'http://escritoresjovenes.s3-website.us-east-2.amazonaws.com'
+    origins 'https://www.escritoresjovenes.com/'
 
     resource '*',
       headers: :any,
