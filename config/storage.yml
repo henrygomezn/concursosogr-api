@@ -8,6 +8,14 @@ local:
   root: <%= Rails.root.join("storage") %>
   public: true
 
+amazon:
+  service: S3
+  access_key_id: "AKIA4GQUX5S6IWTLNV7K"
+  secret_access_key: "CXWvTbf0sfbufrBVHt2L9mxzHNnD0DczAjE2UnIW"
+  bucket: "guardadatos"
+  region: "us-east-2"
+  public: true
+   # e.g. 'us-east-1'
 # Use rails credentials:edit to set the AWS secrets (as aws:access_key_id|secret_access_key)
 # amazon:
 #   service: S3
