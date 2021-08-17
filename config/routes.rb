@@ -6,6 +6,7 @@ Rails.application.routes.draw do
       resources :concurso
       resources :voto
       resources :notice
+      resources :contacto
       get 'actual', to: 'usuarios#actual'
       post 'login', to: 'session#login'
       post 'ultimosCompetidores', to: 'competidor#ultimosCompetidores'
